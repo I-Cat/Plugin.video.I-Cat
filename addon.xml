@@ -5,10 +5,13 @@
        provider-name="I-Cat">
   <requires>
 #<import addon="xbmc.python" version="2.1.0"/>
+<import addon="xbmc.python" version="2.25.0"/>
 #<import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
+  <extension point="xbmc.python.pluginsource"
+            library="default2.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
