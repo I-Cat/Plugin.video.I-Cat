@@ -1,6 +1,6 @@
-# Addon Name: I-Cat
-# Addon id: script.language-convert
-# Addon Provider: I-Cat
+Addon Name: I-Cat
+Addon id: script.language-convert
+Addon Provider: I-Cat
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Addons\n"
@@ -22,4 +22,3 @@ msgstr ""
 msgctxt "#30002"
 msgid "Done"
 msgstr ""
-
