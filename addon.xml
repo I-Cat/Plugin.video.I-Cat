@@ -3,16 +3,18 @@
        name="I-Cat"
        version="1.0.0"
        provider-name="I-Cat">
-  <requires>
- <import addon="xbmc.python" version="3.0.0"/>
-  </requires>
+  <test>
+  <import addon="xbmc.python" version="1.0.0"/>
+  <import addon="xbmc.python" version="2.0.0"/>
+  <import addon="xbmc.python" version="3.0.0"/>
+  </test>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">I-Cat Video Addon</summary>
-    <description lang="en">I-Cat offers a broad collection of great movies you can watch right now</description>
+    <description lang="en">I-Cat offers a broad collection of great movies you can watch Right Meow!!</description>
     <disclaimer lang="en">Something Something</disclaimer>
     <platform>all</platform>
     <language>en</language>
